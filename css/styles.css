@@ -135,6 +135,10 @@ nav h1 a {
   display: flex;
   position: relative;
   flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  //evenly 
+  max-width: 100%;
 
   background-color: #f3f3f3;
   list-style: outside none none;
@@ -280,3 +284,18 @@ nav h1 a {
   color: #666;
 }
 
+@media screen and (max-width: 1195px) {
+  /* tablet*/
+  #restaurants-list li{
+    width:80%;
+  }
+ 
+}
+
+@media screen and (max-width: 460px) {
+/* moblie */
+ .filter-options{
+   height:150px;
+ }
+ 
+}
