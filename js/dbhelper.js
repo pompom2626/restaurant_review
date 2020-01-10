@@ -11,7 +11,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 5500 // Change this to your server port
-    return 'https://github.com/pompom2626/restaurant_review/data/restaurants.json';
+    return 'https://pompom2626.github.io/restaurant_review/data/restaurants.json';
     //return `http://localhost:${port}/data/restaurants.json`;
   }
 
