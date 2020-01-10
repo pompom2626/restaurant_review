@@ -1,3 +1,4 @@
+//var L = window.L;
 let restaurants,
   neighborhoods,
   cuisines

@@ -1,6 +1,8 @@
 /**
  * Common database helper functions.
  */
+//var L = window.L;
+
 class DBHelper {
 
   /**
