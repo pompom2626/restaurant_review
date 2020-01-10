@@ -136,8 +136,8 @@ nav h1 a {
   position: relative;
   flex-flow: wrap;
   flex-direction: row;
-  justify-content: space-around;
-  //evenly 
+  justify-content: space-evenly;
+
   max-width: 100%;
 
   background-color: #f3f3f3;
